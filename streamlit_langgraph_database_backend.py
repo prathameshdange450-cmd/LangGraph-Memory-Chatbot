@@ -14,7 +14,7 @@ load_dotenv()
 load_dotenv()
 MY_API_KEY = "AIzaSyAbWkazPG1xmY-Prua-HWcndtRAB2Gj7FY"
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = getpass.getpass("AIzaSyAbWkazPG1xmY-Prua-HWcndtRAB2Gj7FY")
+    os.environ["GOOGLE_API_KEY"] = getpass.getpass("enter your api key")
 
 # Initialize the model
 llm = ChatGoogleGenerativeAI(

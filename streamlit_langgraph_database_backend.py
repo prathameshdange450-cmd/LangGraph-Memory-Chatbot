@@ -12,7 +12,7 @@ import getpass
 load_dotenv()
 
 load_dotenv()
-MY_API_KEY = "AIzaSyAbWkazPG1xmY-Prua-HWcndtRAB2Gj7FY"
+MY_API_KEY = "emter your api key"
 if "GOOGLE_API_KEY" not in os.environ:
     os.environ["GOOGLE_API_KEY"] = getpass.getpass("enter your api key")
 
